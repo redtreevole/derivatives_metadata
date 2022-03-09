@@ -1,3 +1,7 @@
+# Standard output from LidR Crown Metrics 
+## R LidR command is 
+crown_metrics <- delineate_crowns(ctg_seg, func = .stdmetrics)
+Where ctg_seg is a normalized point cloud with a unique treeID
 
 | Variable Name | Description | References | Units | Type |
 |---|---|---|---|---|
