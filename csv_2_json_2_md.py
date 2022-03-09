@@ -147,7 +147,7 @@ md_path = os.path.join(os.path.dirname(file), f'{base}.md')
 with open(md_path, 'w') as md:
     md.write('\n')
     for l in content:
-        md.write(l)
+        md.write(l + '\n')
 # %%
 
 # %%
